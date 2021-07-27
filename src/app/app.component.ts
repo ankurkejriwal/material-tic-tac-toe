@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material-tic-tac-toe';
+
+  isAuthenticated = false;
+  
+  async logout(): Promise<void> {
+    // todo
+  }
 }
